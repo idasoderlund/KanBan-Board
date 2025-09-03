@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
-import Column from "./Column";
-import { TaskContext } from "../Contexts/Context";
+import Column from "../Components/Column.tsx"; //Denna går inte att hitta
+import { TaskContext } from "../Contexts/Context.tsx"; //Denna går inte att hitta // går fortfarande inte att hitta
 
 const Board = () => {
   const ctx = useContext(TaskContext);

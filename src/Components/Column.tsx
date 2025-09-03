@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from "react";
-import Card from "./Card";
+import Card from "./Card.tsx"; // denna går inte att hitta // verkar gå att hitta nu
 import { useDrop, DropTargetMonitor } from "react-dnd";
 import { TaskContext } from "../Contexts/Context";
 import type { Column as ColumnType } from "../Types/Types";

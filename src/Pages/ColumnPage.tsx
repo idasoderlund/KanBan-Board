@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { TaskContext } from "../Contexts/Context";
+import { TaskContext } from "../Contexts/Context.tsx"; //Denna går inte att hitta
 import type { Column } from "../Types/Types";
 
 interface Task {
