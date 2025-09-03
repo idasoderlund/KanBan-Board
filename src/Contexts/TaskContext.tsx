@@ -1,6 +1,6 @@
 import React, { useState, type ReactNode } from "react";
-import type { Column, Task } from "../Types/Types";
-import { TaskContext } from "./Context";
+import type { Column, Task } from "../Types/Types.tsx";
+import { TaskContext } from "./Context.tsx";
 
 const initialData: Column[] = [
   { id: "todo", title: "Todo", tasks: [] },

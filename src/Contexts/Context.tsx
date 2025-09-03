@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import type { Column, Task } from "../Types/Types";
+import type { Column, Task } from "../Types/Types.tsx";
 
 interface TaskContextType {
   columns: Column[];

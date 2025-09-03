@@ -1,8 +1,8 @@
 import React, { useContext, useRef } from "react";
-import Card from "./Card.tsx"; // denna går inte att hitta // verkar gå att hitta nu
+import Card from "./Card.tsx"; // denna har rödmarkering //tog bort .tsx vi får se om de löser sig
 import { useDrop, DropTargetMonitor } from "react-dnd";
-import { TaskContext } from "../Contexts/Context";
-import type { Column as ColumnType } from "../Types/Types";
+import { TaskContext } from "../Contexts/Context.tsx"; //denna hittas inte
+import type { Column as ColumnType } from "../Types/Types.tsx";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import type { Task } from "../Types/Types";
+import type { Task } from "../Types/Types.tsx";
 
 interface ModalProps {
   task?: Task;
